@@ -1,5 +1,5 @@
 # docker/jmeter/Dockerfile
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
 ARG JMETER_VERSION=5.6.3
 ENV JMETER_HOME=/opt/apache-jmeter
